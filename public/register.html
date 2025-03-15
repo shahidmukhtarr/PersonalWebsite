@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="icon" href="/images/icon.png">
+    <title> Signup Form</title>
+</head>
+<body>
+
+    <div class="home"> 
+      <a href="index.html"> Back to Home Page </a> 
+    </div>
+
+
+
+    <section id="registersection">
+
+        <div class="container">
+
+            <h1> Sign Up </h1>
+
+        <div class="form-box">
+
+        <form action="/signup" method="POST">
+
+            <div class="input-box">
+                <label> Name </label>
+                <input type="text" placeholder="Enter Your Name" value="" name="name" />
+            </div>
+
+            <div class="input-box">
+                <label> Email Address </label>
+                <input type="text" placeholder="Enter Your Email" value="" name="email" />
+            </div>
+
+            <div class="input-box">
+                <label> Phone Number </label>
+                <input type="tel" placeholder="Enter Your Phone Number" value="" name="phone" />
+            </div>
+
+            <div class="input-box">
+                <label> Birth Date </label>
+                <input type="date" placeholder="Enter Your Birth Date" />
+            </div>
+
+            <div class="input-box">
+                <label>Address</label>
+                <input type="text" placeholder="Enter street address" value="" name="address" />
+
+            </div>
+
+            <div class="input-box">
+                <label>Password</label>
+                <input type="password" placeholder="Enter Password" value="" name="password" />
+
+            </div>
+
+            <div class="input-box">
+                <label>Confirm Password</label>
+                <input type="password" placeholder="Confirm Password" value="" name="confirmpassword" />
+
+            </div>
+            
+            <div class="submit"> 
+
+                <button type="submit" value="signup"> Submit </button>
+
+             </div>
+
+            </form>
+
+        </div>
+
+<div class="account">
+<h3> Already Have an account?</h3>
+<a href="login.html"> <button type="button"> Login </button> </a>
+</div>
+
+        </div>
+    </section>
+
+
+    
+</body>
+</html>

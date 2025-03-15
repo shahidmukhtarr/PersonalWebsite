@@ -1,0 +1,105 @@
+
+body {
+    background-image: url('./images/login.jpg');
+    max-block-size: contain;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin: auto;
+    padding-left: 730px;
+    color: darkslategrey;
+    margin-top: auto;
+    padding-top: 200px;
+}
+
+
+.container form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: darkslategray;
+}
+
+.input-box {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+    color: orange;
+    font-family:  sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.input-box input,
+.input-box select {
+    width: 90%;
+    padding: 10px;
+    border: 3px solid #555;
+}
+
+.home{
+    margin-left: 690px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: lightgray;
+    text-decoration: none;
+}
+
+
+
+.form button{
+    background-color: darkgray;
+    color: black;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-left: 240px;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.form button:hover{
+    background-color: lightgray;
+}
+
+.account button{
+
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkgrey;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-left: 730px;
+    transition: background-color 0.2s;
+}
+
+.account h3{
+    font-family: sans-serif;
+    margin-left: 640px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: orange;
+    font-weight: bolder;
+
+}
+
+.account button:hover{
+    background-color: lightgrey;
+}
+
+
